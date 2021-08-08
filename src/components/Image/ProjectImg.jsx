@@ -1,4 +1,4 @@
-import React from 'react';
+ import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import Img from 'gatsby-image';
@@ -28,6 +28,7 @@ const ProjectImg = ({ filename, alt }) => (
       if (!image) return null;
 
       const imageFluid = image.node.childImageSharp.fluid;
+      console.log("imagefluid",imageFluid)
       return <Img alt={alt} fluid={imageFluid} />;
     }}
   />

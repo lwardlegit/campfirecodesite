@@ -21,37 +21,48 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://github.com/lwardlegit/resume/blob/main/newestResume.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'esrimap.png',
+    title: 'ArcGis Disaster alerts',
+    info: 'This application detects weather changes using the arcgis API for real time disaster awareness',
+    info2: 'the intention of the application is to showcase free features of the esri maps api',
+    url: 'https://lwardlegit.github.io/esrimap/',
+    repo: 'https://github.com/lwardlegit/esrimap', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'statsproj.png',
+    title: 'Angular PC stats retrieval',
+    info: 'This angular app pulls processor data from any pc that runs it and displays it for the user',
+    info2: 'the application consists of an angular front end, node server for the system info and json server for persistance to show data changes overtime',
+    url: 'https://github.com/lwardlegit/AngularPCstats',
+    repo: 'https://github.com/lwardlegit/AngularPCstats', // if no repo, the button will not show up
   },
+
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'students.png',
+    title: 'student pagination and search',
+    info: 'A simple example of a multi page search feature coded in react',
+    info2: 'this example allows you to search by tags as well as usernames',
+    url: 'https://lwardlegit.github.io/paginationSample/',
+    repo: 'https://github.com/lwardlegit/paginationSample', // if no repo, the button will not show up
+  },
+
+  {
+    id: nanoid(),
+    img: 'mtg.png',
+    title: 'MTG deckbuilder application',
+    info: 'A react based application to create MTG decks all cards are pulled from the official mtg api',
+    info2: 'the application displays statisics based on cards chosen, and ranks deck stats based on cards chosen',
+    url: 'https://github.com/lwardlegit/mtgbuild',
+    repo: 'https://github.com/lwardlegit/mtgbuild', // if no repo, the button will not show up
   },
 ];
 
@@ -64,26 +75,16 @@ export const contactData = {
 
 // FOOTER DATA
 export const footerData = {
-  networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
+  networks: [   
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/luther-wardle-271a0a198/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/lwardlegit',
     },
   ],
 };
