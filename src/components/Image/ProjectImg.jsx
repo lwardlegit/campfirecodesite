@@ -28,7 +28,7 @@ const ProjectImg = ({ filename, alt }) => (
       if (!image) return null;
 
       const imageFluid = image.node.childImageSharp.fluid;
-      console.log("imagefluid",imageFluid)
+    
       return <Img alt={alt} fluid={imageFluid} />;
     }}
   />
